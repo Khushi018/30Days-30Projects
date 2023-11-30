@@ -1,1 +1,5 @@
-# 30Days-30Projects
+# 30 Days-30 Projects
+The images of the projects 
+
+## Day 1 - New  year countdown
+![image](Images/newyear.png)
