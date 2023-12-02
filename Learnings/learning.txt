@@ -1,0 +1,36 @@
+   1. box model & layout
+   
+   2. Positioning
+      top right bottom left
+
+   3. FlexBox & Grid
+      display Flex
+      felx-direction 
+      justify-content
+      align-items
+
+      display-Grid
+      grid-template-Col 
+      grid-template-row 
+
+   4. Typography
+       font-family
+       font-weight 
+       font-size 
+       font-height 
+
+
+   5. Colors & background
+       opacity
+       Color
+       background-Color
+       background-image
+
+   6. Border & border radius
+
+   7. Transition and Animation
+
+   8. Responsive design
+      media queries 
+
+   9. Transformation

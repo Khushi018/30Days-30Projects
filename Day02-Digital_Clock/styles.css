@@ -1,0 +1,61 @@
+*{    margin: 0;padding: 0;box-sizing: border-box; }
+html, body { width: 100%; height: 100%;}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap'); */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #10101E;
+}
+
+/* .container {
+    color: #fff;
+    background:  #10101E; 
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px 10px;
+    border: 3px solid #33FFE9;
+    border-radius: 2px;
+} */
+
+.container {
+    color:  #33ffe4;
+    background: #10101E;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 10px;
+    border: 15px solid #33ffe4;
+    border-radius: 8px;
+
+}
+
+h1 {
+    font-size:60px;
+    font-family: 'Orbitron', sans-serif;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+
+.date {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time  {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.time span:not(:last-child) {
+    position: relative;
+    margin: 0 6px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+  
