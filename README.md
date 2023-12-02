@@ -5,4 +5,4 @@ The images of the projects
 ![image](Images/newyear.png)
 
 ## Day 2 - Digital Clock
-![image](Images/digitalVi.mp4)
+![image](Images/dv.png)
