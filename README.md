@@ -3,3 +3,6 @@ The images of the projects
 
 ## Day 1 - New  year countdown
 ![image](Images/newyear.png)
+
+## Day 2 - Digital Clock
+![image](Images/digitalVi.mp4)
