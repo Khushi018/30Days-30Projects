@@ -8,4 +8,4 @@ The images of the projects
 ![image](Images/dv.png)
 
 ## Day 3 - To-do list
-![video](Images/todolistvi.mp4)
+![video](https://github.com/Khushi018/30Days-30Projects/blob/main/Images/todolistvi.mp4)
