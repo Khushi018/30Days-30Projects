@@ -6,3 +6,6 @@ The images of the projects
 
 ## Day 2 - Digital Clock
 ![image](Images/dv.png)
+
+## Day 3 - To-do list
+![video](https://github.com/Khushi018/30Days-30Projects/blob/main/Images/todolistvi.mp4)
