@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{    margin: 0;padding: 0;box-sizing: border-box; }
+/* html, body { width: 100%; height: 100%;} */
+
+
+        body {
+            margin: 0 370px;
+            align-items: center;
+
+
+        }
+
+
+        .dot {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background: rgb(236, 117, 5);
+            border: 6px solid black;
+
+        }
+        
+        .clock {
+            border: px solid red;
+            height: 650px;
+            width: 650px;
+            background-image: url(cl.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 20px; */
+        }
+        
+        .min {
+            /* border: 1px solid blue; */
+            width: 12px;
+            height: 230px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+        }
+        .min::after {
+            content: "";
+            width: 6px;
+            height: 115px;
+            background:  black;
+            position: absolute;
+             border-radius: 40%;
+        }
+        .hr {
+            /* border: 1px solid blue; */
+            width: 14px;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+        }
+        .hr::after {
+            content: "";
+            width: 7px;
+            height: 80px;
+            background:  black;
+            position: absolute;
+            border-radius: 40%;
+        }
+
+        .sec {
+            /* border: 1px solid blue; */
+            width: 10px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+        }
+        .sec::after {
+            content: "";
+            width: 5px;
+            height: 155px;
+            background:rgb(236, 117, 5);
+            position: absolute;
+            border-radius: 40%;
+            
+        }
+
+        .dig{
+            font-size: 80px;
+            padding-left: 27%;
+
+        }
+ 
+    </style>
+</head>
+<body>
+    
+
+    <div class="clock">
+        <div class="dot"></div>
+        <div class="sec"></div>
+        <div class="min"></div>
+        <div class="hr"></div>
+    </div>
+
+    <!-- <div class="dig"> -->
+
+    <!-- </div> -->
+</body>
+</html>
+
+
+<script>
+   let vsec = document.querySelector('.sec');
+
+   let vmin = document.querySelector('.min');
+
+   let vhr = document.querySelector('.hr');
+
+
+   setInterval(()=>{
+    let time = new Date();
+    let vss = time.getSeconds() * 6;
+    vsec.style.transform = `rotateZ(${vss}deg)`;
+// minutes 
+    let vmm = time.getMinutes() * 6;
+    vmin.style.transform = `rotateZ(${vmm}deg)`;
+
+// hours 
+    let vhh = time.getHours() * 30;
+    vhr.style.transform = `rotateZ(${vhh + (vmm/12)}deg)`;
+
+    // didgital from time 
+
+    let dig = document.querySelector('.dig');
+    let dh = time.getHours();
+    let dm = time.getMinutes()
+    let ds = time.getSeconds()
+    if(ds < 10) {
+        ds = `0${ds}`;
+    }
+    if(dm < 10) {
+        dm = `0${dm}`;
+    }
+    dig.innerHTML = `${time.getHours()}:${dm}:${ds}`;
+    console.log(vss)
+   },1000);
+
+</script>

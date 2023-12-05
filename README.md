@@ -12,3 +12,6 @@ The images of the projects
 
 ## Day 4 - Image Generator
 ![image](Images/img.png)
+
+## Day 5 - Analog Clock
+![image](Images/cl.png)
