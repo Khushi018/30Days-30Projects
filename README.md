@@ -15,3 +15,7 @@ The images of the projects
 
 ## Day 5 - Analog Clock
 ![image](Images/cl.png)
+
+## Day 6 - Social Media App Icons
+![image](Images/sc.png)
+![image](Images/sc2.png)

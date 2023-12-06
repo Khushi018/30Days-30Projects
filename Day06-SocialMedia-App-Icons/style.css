@@ -1,0 +1,115 @@
+.main {
+    width:100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(240,240,240);
+    margin-top: 200px;
+  }  
+  
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+  .icon {
+    width:100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .icon:hover {
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(255, 252, 252) ;
+  }
+  .icon:hover i {
+    color: #fff;
+  }
+  .fb:hover {
+    background: #0866FF;
+  }
+  .tw:hover {
+        background: rgb(0, 0, 0);
+  }
+  .ins:hover {
+        background: #D42D6A;
+  }
+  .lin:hover {
+        background: #0866FF;
+  } 
+  .wht:hover {
+        background: #4BC658;
+  }
+  .yt:hover {
+        background: red;
+  }
+  .sc:hover {
+        background: yellow;
+  }
+  .gh:hover {
+        background: black;
+
+  }
+
+  
+  .icon  .fa-facebook-f {
+    color:rgb(6, 92, 126);
+}
+
+
+/* <!-- <div class="icon">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-linkedin-in"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-snapchat"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-skype"></i>
+</div> --> */
+.icon  .fa-facebook-f {
+    color:rgb(6, 92, 126);
+}
+.icon  .fa-youtube {
+    color:red;
+}
+.icon  .fa-snapchat {
+    color:yellow;
+}
+
+
+.icon  .fa-whatsapp {
+    color:#4BC658;
+}
+
+.icon  .fa-linkedin-in {
+    color:rgb(6, 92, 126);
+}
+
+.icon  .fa-instagram {
+    color: #D42D6A;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 991px) {
+    .main {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
