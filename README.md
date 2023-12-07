@@ -18,4 +18,10 @@ The images of the projects
 
 ## Day 6 - Social Media App Icons
 ![image](Images/sc.png)
-![image](Images/sc2.png)
+
+## Day 7 - Calculator
+![image](Images/cal.png)
+
+## Day 8 - Weather Application
+![image](Images/wea.png)
+
