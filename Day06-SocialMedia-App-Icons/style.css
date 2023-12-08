@@ -27,6 +27,9 @@
     font-size: 50px;
     line-height: 100px;
     font-family: 'Shadows Into Light', cursive;
+    
+    transition: all 1s ease;
+
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
