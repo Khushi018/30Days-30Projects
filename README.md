@@ -20,7 +20,7 @@ The images of the projects
 ![image](Images/sc.png)
 
 ## Day 7 - Calculator
-![image](Images/cal.png)
+![image](Images/cl.png)
 
 ## Day 8 - Weather Application
 ![image](Images/wea.png)

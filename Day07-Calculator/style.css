@@ -18,12 +18,13 @@
   }
   
   .calc {
+    border:1px solid #699ab6;
     padding: 15px;
     border-radius: 30px;
     display: grid;
     background-color: #e8f5fc;
-    box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5),
-      -6px -6px 10px rgba(255, 255, 255, 0.6);
+    /* box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5), */
+      /* -6px -6px 10px rgba(255, 255, 255, 0.6); */
     grid-template-columns: repeat(5, 70px);
   }
 
@@ -32,10 +33,11 @@
     height: 70px;
     width: 20rem;
     background-color: #e3f3fb;
-    box-shadow: inset 6px 6px 10px rgba(164, 216, 243, 0.5),
-      inset -6px -6px 10px rgba(255, 255, 255, 0.6);
+    /* box-shadow: inset 6px 6px 10px rgba(164, 216, 243, 0.5),
+      inset -6px -6px 10px rgba(255, 255, 255, 0.6); */
     border: none;
-    border-radius: 30px;
+    border-radius: 3px;
+    border:1px solid #699ab6;
     color: rgb(70, 70, 70);
     font-size: 28px;
     text-align: end;
@@ -46,13 +48,14 @@
   }
   button {
     height: 48px;
-    width: 48px;
+    width: 58px;
     background-color: #e8f5fc;
     box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5),
       -6px -6px 10px rgba(255, 255, 255, 0.6);
     border: none;
-    border-radius: 20px;
-    margin: 8px;
+    border-radius: 2px;
+    margin: 4px;
+    border:1px solid #699ab6;
     font-size: 16px;
   }
   
